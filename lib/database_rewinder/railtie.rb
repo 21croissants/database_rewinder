@@ -8,7 +8,7 @@ module DatabaseRewinder
         if RUBY_VERSION > '2.0.0'
           require_relative 'active_record_monkey'
         else
-        require_relative '1.9.3/active_record_monkey'
+        require_relative '1.9/active_record_monkey'
         end
       end
     end
