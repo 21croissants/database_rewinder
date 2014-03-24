@@ -3,9 +3,9 @@ if RUBY_VERSION >= '2.0.0'
   require_relative 'database_rewinder/cleaner_creation'
   require_relative 'database_rewinder/database_cleaner_compat'
 else
-  require_relative 'database_rewinder/1.9.3/cleaner'
-  require_relative 'database_rewinder/1.9.3/cleaner_creation'
-  require_relative 'database_rewinder/1.9.3/database_cleaner_compat'
+  require_relative 'database_rewinder/1.9/cleaner'
+  require_relative 'database_rewinder/1.9/cleaner_creation'
+  require_relative 'database_rewinder/1.9/database_cleaner_compat'
 end
 require_relative 'database_rewinder/railtie'
 
